@@ -9,10 +9,10 @@ let heading = document.querySelector("h1");
     coin.classList.remove("roll");
     let random = Math.ceil(Math.random() * 2);
     if (random === 1) {
-      coin.src = "imgs/head.png";   // HEAD image
+      coin.src = "imgs/head.png";    
       heading.innerText = "HEAD 😍";
     } else {
-      coin.src = "imgs/tail.png";   // TAIL image
+      coin.src = "imgs/tail.png"; 
       heading.innerText = "TAIL 😜";
     }
   }, 1000);  
